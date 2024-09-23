@@ -1,0 +1,46 @@
+body {  
+    font-family: Arial, sans-serif;  
+}  
+
+.container {  
+    display: flex;  
+    justify-content: space-around;  
+    padding: 20px;  
+}  
+
+.column {  
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+}  
+
+.column-title {  
+    font-weight: bold;  
+    margin-bottom: 10px;  
+}  
+
+.social-media {  
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+}  
+
+.social-media li {  
+    display: flex;  
+    align-items: center;  
+}  
+
+.social-media i {  
+    margin-right: 8px;  
+}  
+
+.social-media li:first-child {  
+    font-size: 24px; /* Kích thước chữ lớn hơn cho "Figma" */  
+    font-weight: bold; /* Làm cho chữ đậm hơn */  
+    margin-bottom: 20px; /* Khoảng cách dưới lớn hơn cho "Figma" */  
+}  
+
+.social-media li:not(:first-child) {  
+    margin-bottom: 8px; /* Khoảng cách cho các mục còn lại */  
+    line-height: 1.5; /* Thêm khoảng cách giữa tất cả các dòng */  
+}
